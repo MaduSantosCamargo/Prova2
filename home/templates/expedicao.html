@@ -1,0 +1,35 @@
+{% extends "home.html" %}
+
+{% block style %}
+    #ajuste {
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    #video{
+        width: 100%;
+        height: 500px;
+        border: none;
+    }
+{% endblock style %}
+
+{% block page_title %}
+    Expedição
+{% endblock page_title %}
+
+{% block page_nav %}
+    Expedição
+{% endblock page_nav %}
+
+{% block content %}
+    <h1 id="titulo">Expedição</h1>
+    <br>
+    <br>
+    <div id="ajuste">
+        <iframe id="video"  
+        src="https://www.youtube.com/embed/Wh3ZOALMspo?autoplay=1&loop=1&playlist=Wh3ZOALMspo&mute=1"
+        fullscreen></iframe>
+    </div>
+{% endblock content %}
